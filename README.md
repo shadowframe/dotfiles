@@ -11,5 +11,4 @@ Gruvbox-Material-Dark
 
 ## .vimrc
 `:source %
-
 :PlugInstall`
