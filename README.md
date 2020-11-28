@@ -25,7 +25,7 @@ Gruvbox-Material-Dark
 ## Terminal beauty
 `sudo apt-get install dconf-cli uuid-runtime`
 
-`ash -c  "$(wget -qO- https://git.io/vQgMr)"`
+`bash -c  "$(wget -qO- https://git.io/vQgMr)"`
 
 select Gruvbox
 
