@@ -5,6 +5,9 @@ my dotfiles vim and all the other stuff
 
 ## Gnome Tweaks
 
+### Minimize to Dock
+`gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'`
+
 ### .icons
 Gruvbox-Material-Dark
 
@@ -12,6 +15,9 @@ Gruvbox-Material-Dark
 Gruvbox-Material-Dark
 
 ## .vimrc
+`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
+
 `:source %`
 
 `:PlugInstall`
